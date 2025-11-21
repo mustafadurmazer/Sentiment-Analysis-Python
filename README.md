@@ -61,3 +61,69 @@ Aybüke Eraydın
 Tanıtım Videosu:
 https://www.youtube.com/watch?v=5X0wS3CBCz0&t=22s
 
+
+----------------------------------------------------------------------
+
+Polarization Analysis Project
+Project Description
+
+This project performs polarization analysis on Turkish texts. Sentences are classified as either positive or negative, and the Zemberek library is used to analyze word stems and suffixes. The goal is to detect sentiment tendencies in the given text data.
+
+Technologies Used
+
+Python
+
+Pandas
+
+Zemberek (Turkish Natural Language Processing Library)
+
+Required Files
+
+veri.xlsx – The file containing the sentences to be analyzed.
+
+polarization_keywords.xlsx – List of positive and negative keywords.
+
+Setup & Execution
+
+Install the required libraries:
+
+pip install pandas openpyxl
+
+
+Download and install the Zemberek library.
+
+Prepare the Excel files as specified at the beginning of the script.
+
+Run the Python script:
+
+python analiz.py
+
+Outputs
+
+output.xlsx – Contains processed data and analysis results.
+
+“Cümle Verisi” sheet – Analysis results for each sentence.
+
+“Sonuç Sayıları” sheet – Counts of DP, YP, YN, and DN categories.
+
+Performance Metrics
+
+At the end of the program, the following metrics are calculated:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1 Score
+
+Project Team
+
+This project was developed as a group:
+Mustafa Durmazer (Me), Busenur Yıldız, Aleks Dulda, Aybüke Eraydın
+
+Demo Video
+
+YouTube: https://www.youtube.com/watch?v=5X0wS3CBCz0&t=22s
+
